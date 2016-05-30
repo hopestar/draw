@@ -7,7 +7,7 @@ ax.cla() # clear things for fresh plot
 
 Lx = 3 #x
 Ly = 4 #y
-R = 2 #
+R = 2 #r
 c = str(11111)
 #c = str(int(np.pi*10**100))
 
@@ -16,8 +16,6 @@ ax.set_xlim((0,R*(Lx+1)))
 ax.set_ylim((0,R*(Ly+1)))
 a = range(R, R*Lx+1, R)
 b = range(R, R*Ly+1, R)
-print a
-print b
 leng = len(c)
 n = N -leng
 
